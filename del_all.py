@@ -1,3 +1,7 @@
+# coding:utf8
+
+# 清空所有环境
+
 from config.base import Paramiko
 from config import host_config
 import config,os,paramiko

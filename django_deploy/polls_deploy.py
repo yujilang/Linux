@@ -1,4 +1,7 @@
 #coding:utf8
+
+# 上传项目+创建项目环境
+
 from config.base import Paramiko
 from config import host_config
 import config

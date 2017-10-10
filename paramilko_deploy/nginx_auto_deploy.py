@@ -1,4 +1,6 @@
 #coding:utf8
+
+# 创建nginx环境
 from config.base import Paramiko
 from config import host_config
 import config

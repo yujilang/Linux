@@ -1,0 +1,11 @@
+server {
+    listen 81;
+    server_name localhost;
+
+    location / {
+        proxy_pass http://localhost:8080;
+    }
+    location /static/ {
+        alias /project/baidu/collectstatic/;
+    }
+}
